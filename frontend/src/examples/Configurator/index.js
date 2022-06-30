@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v3.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import { useState, useEffect } from "react";
 
 // react-github-btn
@@ -98,9 +83,9 @@ function Configurator() {
         px={3}
       >
         <SuiBox>
-          <SuiTypography variant="h5">Soft UI Configurator</SuiTypography>
+          <SuiTypography variant="h5">CuOR+</SuiTypography>
           <SuiTypography variant="body2" color="text">
-            See our dashboard options.
+            See our options.
           </SuiTypography>
         </SuiBox>
 
@@ -123,7 +108,7 @@ function Configurator() {
 
       <SuiBox pt={1.25} pb={3} px={3}>
         <SuiBox>
-          <SuiTypography variant="h6">Sidenav Colors</SuiTypography>
+          <SuiTypography variant="h6">Choose a Color</SuiTypography>
 
           <SuiBox mb={0.5}>
             {sidenavColors.map((color) => (
@@ -205,19 +190,19 @@ function Configurator() {
           <SuiBox mb={2}>
             <SuiButton
               component={Link}
-              href="https://www.creative-tim.com/product/soft-ui-dashboard-react"
+              href="https://github.com/KamelMoohamed/OR-Managing-System"
               target="_blank"
               rel="noreferrer"
               color="dark"
               variant="gradient"
               fullWidth
             >
-              free download
+              download
             </SuiButton>
           </SuiBox>
           <SuiButton
             component={Link}
-            href="https://www.creative-tim.com/learning-lab/react/quick-start/soft-ui-dashboard/"
+            href="https://documenter.getpostman.com/view/19876288/Uz5Gmasj#a3976910-e80c-49a3-842c-a05b972bf018"
             target="_blank"
             rel="noreferrer"
             color="dark"
@@ -229,11 +214,11 @@ function Configurator() {
         </SuiBox>
         <SuiBox display="flex" justifyContent="center">
           <GitHubButton
-            href="https://github.com/creativetimofficial/soft-ui-dashboard-react"
+            href="https://github.com/KamelMoohamed/OR-Managing-System"
             data-icon="octicon-star"
             data-size="large"
             data-show-count="true"
-            aria-label="Star creativetimofficial/soft-ui-dashboard-react on GitHub"
+            aria-label="Star CuOR+ on GitHub"
           >
             Star
           </GitHubButton>

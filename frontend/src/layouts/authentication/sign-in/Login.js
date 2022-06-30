@@ -1,3 +1,6 @@
+// Alert Package
+import swal from "sweetalert";
+
 import { useState, useContext } from "react";
 // react-router-dom components
 import { Link, useNavigate } from "react-router-dom";
@@ -45,6 +48,9 @@ function SignIn() {
         }),
       });
       const responseData = await response.json();
+      if (responseData.status === "fail") {
+        swal(responseData.message);
+      }
       auth.login(responseData.data.user.role);
       auth.token = responseData.token;
       localStorage.setItem("jwt", responseData.token);
